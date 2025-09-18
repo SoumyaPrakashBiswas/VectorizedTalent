@@ -3,7 +3,7 @@ Resume Vector Search with Lucene-
 This project implements a vector-based search engine for resumes (CVs) using Lucene’s KNN search.
 It allows storing resumes as embeddings in a Lucene index, and then querying them with natural language search by converting user queries into embeddings and retrieving the top-k most relevant results.
 
-🚀 Features
+🚀 Process:
 
 📄 Resume Structuring – Extract and preprocess CV data.
 
@@ -31,7 +31,7 @@ Return results – Top-k most relevant resumes are returned.
 
 🛠️ Tech Stack
 
-Kotlin / Java – Core implementation.
+Kotlin /   Python   – Core implementation.
 
 Apache Lucene – For indexing and kNN vector search.
 
